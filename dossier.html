@@ -14,9 +14,10 @@
     width: 920px; min-height: 640px; position: relative; overflow: visible;
     display: flex; flex-direction: column;
     background:
-      radial-gradient(120% 90% at 0% 0%, rgba(242,193,75,.22) 0%, rgba(242,193,75,.10) 32%, rgba(242,193,75,.03) 48%, transparent 58%),
-      linear-gradient(105deg, rgba(242,193,75,.08) 0%, transparent 50%),
-      radial-gradient(700px 280px at 100% 100%, rgba(180,40,40,.06), transparent 50%),
+      radial-gradient(85% 70% at 8% 18%, rgba(242,193,75,.28) 0%, rgba(242,193,75,.14) 35%, rgba(242,193,75,.05) 52%, transparent 62%),
+      linear-gradient(90deg, rgba(242,193,75,.14) 0%, rgba(242,193,75,.06) 28%, transparent 50%),
+      linear-gradient(180deg, rgba(242,193,75,.10) 0%, transparent 50%),
+      radial-gradient(700px 280px at 100% 100%, rgba(180,40,40,.05), transparent 50%),
       linear-gradient(160deg, #171b22 0%, #0c0e12 48%, #090b0e 100%);
     color: #e8eaef;
     font-family: "Trebuchet MS", "Segoe UI", Helvetica, Arial, sans-serif;
@@ -45,7 +46,15 @@
   }
   .cbl { left: 9px; bottom: 9px; border-right: 0; border-top: 0; }
   .cbr { right: 9px; bottom: 9px; border-left: 0; border-top: 0; }
-  .rail { position: absolute; left: 0; top: 0; bottom: 0; width: 4px; background: #f2c14b; }
+  .rail {
+    position: absolute; left: 0; top: 0; bottom: 0; width: 5px;
+    background: linear-gradient(180deg, #f2c14b 0%, #f2c14b 48%, rgba(242,193,75,.35) 62%, transparent 78%);
+  }
+  .rail-glow {
+    position: absolute; left: 0; top: 0; width: 46%; height: 55%;
+    pointer-events: none; z-index: 1;
+    background: radial-gradient(ellipse at 0% 10%, rgba(242,193,75,.20), transparent 70%);
+  }
   .header {
     position: relative; z-index: 2;
     display: flex; justify-content: space-between; align-items: flex-end;
@@ -171,6 +180,7 @@
 <body>
   <div class="card">
     <div class="rail"></div>
+    <div class="rail-glow"></div>
     <div class="scan"></div>
     <div class="frame"></div>
     <div class="cbl"></div><div class="cbr"></div>
