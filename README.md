@@ -1,40 +1,17 @@
-<div align="center">
-
-```text
-╔════════════════════════════════════════════════╗
-║              CREATE A CLASS                    ║
-║────────────────────────────────────────────────║
-║                                                ║
-║            H I   I ' M   B                     ║
-║                                                ║
-║  Vignesh · thenameisvicky · SDE · AI Systems   ║
-║  Tamil Nadu · Drop hot. Extract the PR.        ║
-║                                                ║
-╚════════════════════════════════════════════════╝
-```
-
-[![GitHub](https://img.shields.io/badge/GitHub-thenameisvicky-181717?style=flat-square&logo=github)](https://github.com/thenameisvicky)
-[![Portfolio](https://img.shields.io/badge/Portfolio-vigneshwaran.tech-111111?style=flat-square)](https://vigneshwaran.tech/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vigneshwaranbstar)
-
-</div>
-
-```text
-CLASS  Assault / Flex          WILDCARD  Overkill
-PERKS  Double Time · Ghost · Fast Hands
-```
-
-| Slot | Loadout |
-|:-----|:--------|
-| **Primary** | TypeScript / Node.js · Express · Zod · WebSocket |
-| **Secondary** | Go · Python · CLI · JWT |
-| **Tactical** | Docker · K8s · GitHub Actions |
-| **Lethal** | Postgres · Mongo · Redis · Prisma |
-| **Field Upgrade** | React · Next.js · Electron |
-| **Killstreak** | Local LLM · ASR/VAD · ReAct agents · AWS |
-
-**Ops** — [Kural](https://github.com/thenameisvicky/voice) · [mako](https://github.com/thenameisvicky/mako) · [roadmap-agent](https://github.com/thenameisvicky/roadmap-agent) · [Suvadi](https://github.com/thenameisvicky/Suvadi) · [billing](https://github.com/thenameisvicky/IPD-OPD-Billing) · [system-design](https://github.com/thenameisvicky/system-design)
+<p align="center">
+  <img src="./operator-dossier.png" alt="Operator Dossier — Hi i'm B" width="920" />
+</p>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,go,python,nodejs,react,nextjs,postgres,redis,docker,aws,linux" />
+  <a href="https://github.com/thenameisvicky"><img src="https://img.shields.io/badge/GitHub-thenameisvicky-0a0b0e?style=for-the-badge&logo=github&logoColor=f2c14b&labelColor=12141a" alt="GitHub"/></a>
+  <a href="https://vigneshwaran.tech/"><img src="https://img.shields.io/badge/Portfolio-vigneshwaran.tech-0a0b0e?style=for-the-badge&labelColor=12141a&color=b8861f" alt="Portfolio"/></a>
+  <a href="https://www.linkedin.com/in/vigneshwaranbstar"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=12141a" alt="LinkedIn"/></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/thenameisvicky/voice"><img src="https://img.shields.io/badge/Kural-voice-12141a?style=flat-square&labelColor=f2c14b" alt="Kural"/></a>
+  <a href="https://github.com/thenameisvicky/mako"><img src="https://img.shields.io/badge/mako-Go%20runtime-12141a?style=flat-square&labelColor=b8861f" alt="mako"/></a>
+  <a href="https://github.com/thenameisvicky/roadmap-agent"><img src="https://img.shields.io/badge/roadmap--agent-ReAct-12141a?style=flat-square&labelColor=6e7585" alt="roadmap-agent"/></a>
+  <a href="https://github.com/thenameisvicky/Suvadi"><img src="https://img.shields.io/badge/Suvadi-local%20GPT-12141a?style=flat-square&labelColor=4aa3df" alt="Suvadi"/></a>
+  <a href="https://github.com/thenameisvicky/IPD-OPD-Billing"><img src="https://img.shields.io/badge/billing-Prisma-12141a?style=flat-square&labelColor=c45c4a" alt="billing"/></a>
 </p>
