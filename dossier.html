@@ -2,9 +2,10 @@
 <html><head><meta charset="utf-8"/>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
-  html, body { background: #050607; width: 920px; height: 540px; overflow: hidden; }
+  html, body { background: #050607; width: 920px; height: 620px; overflow: hidden; }
   .card {
-    width: 920px; height: 540px; position: relative; overflow: hidden;
+    width: 920px; height: 620px; position: relative; overflow: hidden;
+    display: flex; flex-direction: column;
     background:
       radial-gradient(1000px 320px at 0% 0%, rgba(242,193,75,.10), transparent 55%),
       radial-gradient(700px 280px at 100% 100%, rgba(180,40,40,.08), transparent 50%),
@@ -55,10 +56,10 @@
   .main {
     position: relative; z-index: 2;
     display: grid; grid-template-columns: 196px 1fr; gap: 20px;
-    padding: 16px 28px 0 28px;
+    padding: 14px 28px 0 28px;
   }
   .portrait-box {
-    position: relative; width: 196px; height: 236px;
+    position: relative; width: 196px; height: 220px;
     background: #000; border: 1px solid #3a4150;
   }
   .portrait-box img {
@@ -105,7 +106,7 @@
   }
   .brief {
     position: relative; z-index: 2;
-    margin: 14px 28px 0; padding: 10px 12px;
+    margin: 12px 28px 0; padding: 10px 12px;
     border: 1px solid #2c3240; background: rgba(0,0,0,.35);
   }
   .brief .l { font-size: 10px; letter-spacing: 3px; color: #f2c14b; font-weight: 700; margin-bottom: 5px; }
@@ -114,6 +115,7 @@
     position: relative; z-index: 2;
     display: grid; grid-template-columns: 1.15fr .85fr; gap: 12px;
     padding: 12px 28px 0;
+    flex: 0 0 auto;
   }
   .panel {
     border: 1px solid #2c3240; background: rgba(255,255,255,.02); padding: 10px 12px;
@@ -141,7 +143,7 @@
   .ops {
     position: relative; z-index: 2;
     display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
-    padding: 10px 28px 0;
+    padding: 12px 28px 0;
   }
   .ops .l { font-size: 10px; letter-spacing: 3px; color: #f2c14b; font-weight: 700; }
   .op {
@@ -150,9 +152,11 @@
     padding: 4px 8px;
   }
   footer {
-    position: absolute; left: 28px; right: 28px; bottom: 16px; z-index: 2;
+    position: relative; z-index: 2;
+    margin: 14px 28px 18px;
     display: flex; justify-content: space-between; align-items: center;
     font-size: 11px; letter-spacing: 1.5px; color: #6d7585;
+    border-top: 1px solid #2c3240; padding-top: 10px;
   }
   footer .motto { color: #f2c14b; font-weight: 700; }
 </style></head>
